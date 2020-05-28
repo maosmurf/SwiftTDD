@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1DDC8F6A6FED03DF637289B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B1DDC476527BA90B0CA47AF3 /* README.md */; };
+		B1DDC493D9482DA37B0031B7 /* print.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDC8385CB81D14AC33C880 /* print.swift */; };
 		B1DDCFDEBEFD5EDC20DC4805 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDC86FFB067D55AA21222D /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		B1DDC476527BA90B0CA47AF3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B1DDC8385CB81D14AC33C880 /* print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = print.swift; sourceTree = "<group>"; };
 		B1DDC86FFB067D55AA21222D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B1DDCF0D601A07901DD60876 /* SwiftTDD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTDD; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				B1DDC86FFB067D55AA21222D /* main.swift */,
+				B1DDC8385CB81D14AC33C880 /* print.swift */,
 			);
 			path = SwiftTDD;
 			sourceTree = "<group>";
@@ -106,6 +108,7 @@
 			projectRoot = "";
 			targets = (
 				B1DDC50DA8AA486B246CCEDA /* SwiftTDD */,
+				B1DDC597E3A1F819C5F9C026,
 			);
 		};
 /* End PBXProject section */
@@ -116,7 +119,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DDCFDEBEFD5EDC20DC4805 /* main.swift in Sources */,
-				B1DDC8F6A6FED03DF637289B /* README.md in Sources */,
+				B1DDC493D9482DA37B0031B7 /* print.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DDC8D94BE5C3D54FF63CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +273,12 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B1DDC75319DE8357E2261D29 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		B1DDCDD2C74A7F2D2C883A3C /* Build configuration list for PBXNativeTarget "SwiftTDD" */ = {
 			isa = XCConfigurationList;
