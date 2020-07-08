@@ -11,7 +11,7 @@ class BoardTests: XCTestCase {
     var board: Board?
 
     override func setUp() {
-        board = Board()
+        board = Board.seed()
     }
 
     func testNewBoardIsValid() {

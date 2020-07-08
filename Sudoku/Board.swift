@@ -6,6 +6,14 @@
 import Foundation
 
 class Board {
+
+    static func seed() -> Board {
+        return Board()
+    }
+
+    fileprivate init() {
+    }
+
     func isValid() -> Bool {
         true
     }
