@@ -10,11 +10,9 @@ class BoardTests: XCTestCase {
 
     var board: Board?
 
-    override func setUp() {
-        board = Board.seed()
-    }
-
     func testNewBoardIsValid() {
+        var seed = [Coordinate: Int]()
+        board = Board.seed(seed)
         let valid = board!.isValid()
         XCTAssertTrue(valid)
     }

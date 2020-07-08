@@ -6,7 +6,18 @@
 import Foundation
 
 class Cell {
+
+    private var value: Int?
+
     func isKnown() -> Bool {
-        false
+        value != nil
+    }
+
+    func setValue(_ value: Int) {
+        self.value = value
+    }
+
+    func getValue() -> Int? {
+        value
     }
 }

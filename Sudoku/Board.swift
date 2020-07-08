@@ -5,13 +5,33 @@
 
 import Foundation
 
+struct Coordinate: Hashable {
+    var row: Int;
+    var column: Int;
+}
+
 class Board {
 
-    static func seed() -> Board {
-        return Board()
+    let cells : [Coordinate: Cell]
+
+    static func seed(_ seed: [Coordinate: Int]) -> Board {
+        var cells = [Coordinate: Cell]()
+        for row in (0...8) {
+            for column in (0...8) {
+                let coordinate: Coordinate = Coordinate(row: row, column: column)
+                let cell: Cell = Cell()
+                if let value = seed[coordinate] {
+                    cell.setValue(value)
+                }
+                cells[coordinate] = cell
+            }
+        }
+        let board = Board(cells)
+        return board
     }
 
-    fileprivate init() {
+    fileprivate init(_ cells: [Coordinate: Cell]) {
+        self.cells = cells
     }
 
     func isValid() -> Bool {
