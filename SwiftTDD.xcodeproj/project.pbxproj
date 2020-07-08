@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B1DDC493D9482DA37B0031B7 /* print.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDC8385CB81D14AC33C880 /* print.swift */; };
+		B1DDC9B0D0E29F81EB5F764B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDC82831C215145D2B9380 /* Cell.swift */; };
 		B1DDCC8692392D53569238C1 /* SudokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDCB2DC63F082C6A65F6E7 /* SudokuTests.swift */; };
+		B1DDCCA0F8DD860994CFA9E8 /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDCBAE5BA16015D1B9107C /* CellTests.swift */; };
 		B1DDCDEA7E74981727E8CA35 /* BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDC4DF90E3AAC95DC8300D /* BoardTests.swift */; };
 		B1DDCE35B50A13E249448B52 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDCFBA26E4A8EE85ECF21B /* Board.swift */; };
 		B1DDCE71C2AC30A55D26E99B /* Sudoku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDCC94397D9CE468BCE74D /* Sudoku.framework */; };
@@ -42,10 +44,12 @@
 		B1DDC476527BA90B0CA47AF3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B1DDC4DF90E3AAC95DC8300D /* BoardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardTests.swift; sourceTree = "<group>"; };
 		B1DDC5FC2438B5AC5D696BEF /* SudokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DDC82831C215145D2B9380 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		B1DDC8385CB81D14AC33C880 /* print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = print.swift; sourceTree = "<group>"; };
 		B1DDC86FFB067D55AA21222D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B1DDCB2DC63F082C6A65F6E7 /* SudokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuTests.swift; sourceTree = "<group>"; };
 		B1DDCB5B868373D93A66374F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B1DDCBAE5BA16015D1B9107C /* CellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
 		B1DDCC94397D9CE468BCE74D /* Sudoku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sudoku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DDCF0D601A07901DD60876 /* SwiftTDD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTDD; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DDCFBA26E4A8EE85ECF21B /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 			children = (
 				B1DDCB5B868373D93A66374F /* Info.plist */,
 				B1DDCFBA26E4A8EE85ECF21B /* Board.swift */,
+				B1DDC82831C215145D2B9380 /* Cell.swift */,
 			);
 			path = Sudoku;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 				B1DDC0497A4F67F9555D24A8 /* Info.plist */,
 				B1DDCB2DC63F082C6A65F6E7 /* SudokuTests.swift */,
 				B1DDC4DF90E3AAC95DC8300D /* BoardTests.swift */,
+				B1DDCBAE5BA16015D1B9107C /* CellTests.swift */,
 			);
 			path = SudokuTests;
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 			files = (
 				B1DDCC8692392D53569238C1 /* SudokuTests.swift in Sources */,
 				B1DDCDEA7E74981727E8CA35 /* BoardTests.swift in Sources */,
+				B1DDCCA0F8DD860994CFA9E8 /* CellTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DDCE35B50A13E249448B52 /* Board.swift in Sources */,
+				B1DDC9B0D0E29F81EB5F764B /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
